@@ -14,6 +14,9 @@ class PrototypesController < ApplicationController
       render :index
     end
   end
+  
+  def show
+  end
 
   private
   def prototype_params
