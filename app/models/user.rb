@@ -10,4 +10,5 @@ class User < ApplicationRecord
   validates :position, presence: true
 
   has_many :porototypes
+  has_many :comments
 end
